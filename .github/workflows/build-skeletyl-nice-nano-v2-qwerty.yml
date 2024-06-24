@@ -11,5 +11,5 @@ jobs:
       board: '["nice_nano_v2"]'
       shield: '["corne_left","corne_right"]'
       alphas: '["qwerty"]'
-      kconfig: '["#define CONFIG_BT_CTLR_TX_PWR_PLUS_8=y/n#define CONFIG_ZMK_BLE_EXPERIMENTAL_FEATURES=y\n#define CONFIG_ZMK_EXT_POWER=y\n#define CONFIG_ZMK_SLEEP=y\n#define CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=3600000\n#define CONFIG_ZMK_RGB_UNDERGLOW=y\n#define CONFIG_WS2812_STRIP=y"]'
+      kconfig: '["#define CONFIG_BT_CTLR_TX_PWR_PLUS_8=y\n#define CONFIG_ZMK_EXT_POWER=y\n#define CONFIG_ZMK_SLEEP=y\n#define CONFIG_ZMK_IDLE_SLEEP_TIMEOUT=3600000\n#define CONFIG_ZMK_RGB_UNDERGLOW=y\n#define CONFIG_WS2812_STRIP=y"]'
       
