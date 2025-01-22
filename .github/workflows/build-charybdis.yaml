@@ -1,0 +1,13 @@
+# Copyright 2021 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build Example charybdis nice_nano_v2 qwerty'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["charybdis_left","charybdis_right"]'
+      alphas: '["qwerty"]'
