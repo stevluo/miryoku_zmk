@@ -1,5 +1,10 @@
 # Copyright 2024 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-outboard_modules='stevluo/charybdis-mini-zmk-module/main'
-outboard_branches='petejohanson/zmk/feat/pointers-move-scroll'
+outboard_repository=stevluo/charybdis-mini-zmk-module
+outboard_ref=main
+outboard_from=boards/shields/charybdis
+outboard_to=boards/shields/charybdis
+
+#outboard_modules='stevluo/charybdis-mini-zmk-module/main'
+#outboard_branches='petejohanson/zmk/feat/pointers-move-scroll'
