@@ -2,8 +2,8 @@
 # https://github.com/manna-harbour/miryoku
 
 outboard_repository=stevluo/charybdis-mini-zmk-module
-outboard_ref=main
-outboard_from=boards/shields/charybdis
+outboard_ref=master
+outboard_from=boards/shields/charybdis-bt
 outboard_to=boards/shields/charybdis
 
 #outboard_modules='stevluo/charybdis-mini-zmk-module/main'
